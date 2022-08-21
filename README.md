@@ -8,7 +8,8 @@ Under Config.Bossmenus
 ```
 ['cigarjob'] = {
         vector3(-37.46, 3691.2, 37.47),
-    },```
+    },
+ ```
     
 
 
