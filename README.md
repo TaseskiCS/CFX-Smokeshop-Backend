@@ -60,3 +60,37 @@ Under Config.Bossmenus
 ['cigarette'] 						 = {['name'] = 'cigarette', 			  	  		['label'] = 'Cigarette', 					['weight'] = 0, 		['type'] = 'item', 		['image'] = 'cigarette.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Cancer Stick'},
 	['cigar'] 						 = {['name'] = 'cigar', 			  	  		['label'] = 'Cigar', 					['weight'] = 0, 		['type'] = 'item', 		['image'] = 'cigar.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Relaxing Stick'},
 	["trimmedtobaccoleaf"] 		 	 	 	 = {["name"] = "trimmedtobaccoleaf",           		["label"] = "Trimmed Tobacco Wrap",	 		["weight"] = 830,		["type"] = "item", 		["image"] = "trimmedtobacco.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["expire"] = 90,  ["description"] = "Trimmed Tobacco That Can Roll"},```
+	
+	
+# *Into qb-core/shared/jobs.lua
+
+```
+['cigarjob'] = {
+		label = 'Alpha Cigars',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Cigarette Picker',
+                payment = 50
+            },
+			['1'] = {
+                name = 'Cigar Picker',
+                payment = 75
+            },
+			['2'] = {
+                name = 'Delivery Driver',
+                payment = 100
+            },
+			['3'] = {
+                name = 'Manager',
+                payment = 125
+            },
+			['4'] = {
+                name = 'Owner',
+				isboss = true,
+                payment = 150
+            },
+        },
+	},
+```
