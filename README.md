@@ -21,7 +21,7 @@ Under Config.Bossmenus
 
 
 
-*Into qb-core/shared/items.lua
+# *Into qb-core/shared/items.lua
 
 
 ```
