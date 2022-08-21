@@ -3,6 +3,8 @@
 # INSTALLATION
 
 Into qb-core/shared/items.lua
+
+
 ``["lowtobaccoleaf"] 		 	 	 	 = {["name"] = "lowtobaccoleaf",           			["label"] = "(A) Wet Tobacco Leaf",	 		["weight"] = 1500,		["type"] = "item", 		["image"] = "wetleaflow.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["expire"] = 90,  ["description"] = "Tobacco Leaf that needs to be grinded for cigarettes!"},
 	["midtobaccoleaf"] 		 	 	 	 = {["name"] = "midtobaccoleaf",           			["label"] = "(AA) Wet Tobacco Leaf",	 		["weight"] = 1500,		["type"] = "item", 		["image"] = "wethighmid.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["expire"] = 90,  ["description"] = "Tobacco Leaf for Cigars."},
 	["hightobaccoleaf"] 		 	 	 = {["name"] = "hightobaccoleaf",           		["label"] = "Premium Wet Tobacco Leaf",	 			["weight"] = 1500,		["type"] = "item", 		["image"] = "wethighleaf.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["expire"] = 90,  ["description"] = "SUPER RARE TOBACCO LEAF THAT IS USED FOR PREMIUM PRODUCT"},
