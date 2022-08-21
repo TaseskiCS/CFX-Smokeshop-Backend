@@ -1,8 +1,8 @@
 # ricky
 
-# INSTALLATION
+# INSTALLATION 
 
-Into qb-management
+# *Into qb-management
 
 Under Config.Bossmenus
 ```
@@ -21,7 +21,7 @@ Under Config.Bossmenus
 
 
 
-Into qb-core/shared/items.lua
+*Into qb-core/shared/items.lua
 
 
 ```
