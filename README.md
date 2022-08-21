@@ -10,6 +10,12 @@ Under Config.Bossmenus
         vector3(-37.46, 3691.2, 37.47),
     },
  ```
+ Under Config.BossMenuZones
+ ```
+ ['cigarjob'] = {
+        { coords = vector3(-37.46, 3691.2, 37.47), length = 2.22, width = 1, heading = 135.0, minZ = 35.07, maxZ = 39.07 },
+    },
+```
     
 
 
