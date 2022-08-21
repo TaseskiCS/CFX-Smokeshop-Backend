@@ -2,6 +2,9 @@
 
 # INSTALLATION 
 
+# DEPENDENCIES
+https://github.com/Nathan-FiveM/qb-lock or ill just make it work with the elite skillbar
+
 # *Into qb-management
 
 Under Config.Bossmenus
